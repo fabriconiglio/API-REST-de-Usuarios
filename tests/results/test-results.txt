@@ -1,0 +1,9 @@
+
+> globalthink@1.0.0 test
+> jest
+
+  console.log
+    Test server listening on port 34437
+
+      at Server.<anonymous> (tests/user.test.ts:13:19)
+
