@@ -15,7 +15,7 @@ Clona el repositorio y navega al directorio del proyecto:
 
 ```bash
 git clone https://github.com/fabriconiglio/API-REST-de-Usuarios
-cd globalThink
+cd API-REST-de-Usuarios
 ```
 
 Instala las dependencias del proyecto:
