@@ -13,8 +13,11 @@ RUN npm install
 # Copiar el resto del código fuente
 COPY . .
 
+# Compilar el código TypeScript
+RUN npm run build
+
 # Exponer el puerto que tu aplicación utiliza
 EXPOSE 3000
 
 # Comando para ejecutar la aplicación
-CMD ["node", "src/server.js"]
+CMD ["node", "dist/server.js"]
