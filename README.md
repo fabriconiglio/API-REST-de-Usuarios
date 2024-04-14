@@ -13,8 +13,10 @@ Antes de comenzar, asegúrate de tener instalado:
 
 Clona el repositorio y navega al directorio del proyecto:
 
-`git clone <url-del-repositorio>`
-`cd globalThink`
+```bash
+git clone https://github.com/fabriconiglio/API-REST-de-Usuarios
+cd globalThink
+```
 
 Instala las dependencias del proyecto:
 
@@ -44,8 +46,10 @@ Para iniciar el servidor en modo de producción, primero asegúrate de construir
 
 Para construir la imagen Docker del proyecto y ejecutarla, usa los siguientes comandos:
 
-`docker build -t globalthink-api .`
-`docker run -p 3000:3000 globalthink-api`
+```bash
+docker build -t globalthink-api .
+docker run -p 3000:3000 globalthink-api
+```
 
 ## API Endpoints
 
